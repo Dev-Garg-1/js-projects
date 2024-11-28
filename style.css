@@ -2,9 +2,17 @@ a {
     text-decoration: none;
 }
 
+.projects {
+    display: flex;
+    flex-direction: column;
+}
+
 .project-link {
     border: 2px solid black;
+    width: 300px;
     padding: 10px;
     border-radius: 10px;
     background-color: yellow;
+    margin: 10px;
+    text-decoration: none;
 }
